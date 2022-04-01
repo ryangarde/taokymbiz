@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+:root {
+	--clr-primary-main: #3782f6;
+	--clr-primary-dark: #0e1844;
+}

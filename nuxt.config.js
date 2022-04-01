@@ -27,11 +27,18 @@ export default {
 	components: false,
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-	buildModules: [],
+	buildModules: ['@nuxt/postcss8'],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [],
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
-	build: {},
+	build: {
+		postcss: {
+			plugins: {
+				tailwindcss: {},
+				autoprefixer: {},
+			},
+		},
+	},
 };

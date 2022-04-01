@@ -69,10 +69,10 @@
 button {
 	background-color: #f10000;
 	color: #fff;
-	padding: 12px 28px;
+	padding: 9px 28px;
 	border: none;
 	border-radius: 6px;
-	font-size: 11px;
+	font-size: 13px;
 	font-weight: 600;
 }
 </style>

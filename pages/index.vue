@@ -3,6 +3,8 @@
 		<Appointment />
 		<WhyTaokym />
 		<HowItWorks />
+		<Features />
+		<BusinessServed />
 	</div>
 </template>
 
@@ -16,6 +18,8 @@
 import Appointment from '@/components/home/Appointment.vue';
 import WhyTaokym from '~/components/home/WhyTaokym.vue';
 import HowItWorks from '../components/home/HowItWorks.vue';
+import Features from '~/components/home/Features.vue';
+import BusinessServed from '../components/home/BusinessServed.vue';
 
 export default {
 	data() {
@@ -25,6 +29,6 @@ export default {
 			},
 		};
 	},
-	components: { Appointment, WhyTaokym, HowItWorks },
+	components: { Appointment, WhyTaokym, HowItWorks, Features, BusinessServed },
 };
 </script>

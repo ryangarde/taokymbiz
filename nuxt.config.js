@@ -27,7 +27,7 @@ export default {
 	components: false,
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-	buildModules: ['@nuxt/postcss8'],
+	buildModules: ['@nuxt/postcss8', '@nuxtjs/vuetify'],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [],

@@ -27,3 +27,7 @@ ul {
 ol {
 	list-style: decimal;
 }
+
+.theme--light.v-expansion-panels .v-expansion-panel {
+	color: #fff !important;
+}

@@ -10,8 +10,8 @@
 			<v-expansion-panels class="panels" accordion tile>
 				<v-expansion-panel class="panel">
 					<v-expansion-panel-header class="panel-header"> 1. Insurance</v-expansion-panel-header>
-					<v-expansion-panel-content class="panel-content">
-						<ul class="ml-8">
+					<v-expansion-panel-content class="panel-content" eager>
+						<ul class="ml-8 p-4">
 							<li>Agents</li>
 							<li>Agencies</li>
 							<li>Marketing Organizations</li>
@@ -22,8 +22,8 @@
 
 				<v-expansion-panel class="panel">
 					<v-expansion-panel-header class="panel-header">2. Health and Well-being</v-expansion-panel-header>
-					<v-expansion-panel-content class="panel-content">
-						<ul class="ml-8">
+					<v-expansion-panel-content class="panel-content" eager>
+						<ul class="ml-8 p-4">
 							<li>Medical Professionals</li>
 							<li>Medical Clinics</li>
 							<li>Medical Equipment Wholesalers</li>
@@ -34,8 +34,8 @@
 
 				<v-expansion-panel class="panel">
 					<v-expansion-panel-header class="panel-header">3. Professional Service</v-expansion-panel-header>
-					<v-expansion-panel-content class="panel-content">
-						<ul class="ml-8">
+					<v-expansion-panel-content class="panel-content" eager>
+						<ul class="ml-8 p-4">
 							<li>Accountant</li>
 							<li>Financial Advisors</li>
 							<li>Financial Firms</li>
@@ -46,8 +46,8 @@
 
 				<v-expansion-panel class="panel">
 					<v-expansion-panel-header class="panel-header">4. Fitness and Lifestyle</v-expansion-panel-header>
-					<v-expansion-panel-content class="panel-content">
-						<ul class="ml-8">
+					<v-expansion-panel-content class="panel-content" eager>
+						<ul class="ml-8 p-4">
 							<li>Salons</li>
 							<li>Fitness Instructors</li>
 							<li>Personal Trainers</li>
@@ -58,6 +58,14 @@
 		</div>
 	</div>
 </template>
+
+<script>
+export default {
+	data: () => ({
+		panel: 0,
+	}),
+};
+</script>
 
 <style scoped>
 .root {
@@ -116,6 +124,6 @@ ul {
 }
 
 .panel-content {
-	padding: 20px;
+	/* padding: 20px; */
 }
 </style>

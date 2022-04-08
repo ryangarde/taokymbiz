@@ -3,7 +3,7 @@
 		<div class="body">
 			<SectionTitle>HOW IT WORKS?</SectionTitle>
 
-			<img class="how-it-works-image mx-auto" src="@/assets/images/howit-works-appointment.webp" />
+			<nuxt-img class="how-it-works-image mx-auto" src="/images/howit-works-appointment.webp" width="80%" fit="cover" />
 
 			<div class="content">
 				The Virtual Appointments Setter (VAS) will convert prospects into possible buyers. They will contact leads, prospects and clients
@@ -11,7 +11,7 @@
 				proposition and phone script, we can help you create one. If you don’t have prospects, we may be able to help there too!
 			</div>
 
-			<img src="@/assets/images/flow-appointment.webp" alt="" class="flow-appointment mx-auto" />
+			<img src="@/assets/images/flow-appointment.webp" alt="" class="flow-appointment mx-auto" width="40%" fit="cover" />
 		</div>
 	</div>
 </template>
@@ -35,7 +35,6 @@ export default {
 }
 
 .how-it-works-image {
-	width: 80%;
 	margin-top: 20px;
 }
 
@@ -47,7 +46,6 @@ export default {
 }
 
 .flow-appointment {
-	width: 40%;
 	margin-top: 50px;
 }
 </style>

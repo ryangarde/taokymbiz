@@ -13,19 +13,19 @@
 
 			<div class="appointments">
 				<div class="appointment">
-					<nuxt-img src="/icons/why-taokym.webp" />
+					<nuxt-img src="/icons/why-taokym.webp" width="218" height="221" />
 					<Button block>Why TAOKYM?</Button>
 				</div>
 				<div class="appointment">
-					<nuxt-img src="/icons/how-it-works-appointment.webp" />
+					<nuxt-img src="/icons/how-it-works-appointment.webp" width="218" height="221" />
 					<Button block>How it Works?</Button>
 				</div>
 				<div class="appointment">
-					<nuxt-img src="/icons/features.webp" />
+					<nuxt-img src="/icons/features.webp" width="218" height="221" />
 					<Button block>Features</Button>
 				</div>
 				<div class="appointment">
-					<nuxt-img src="/icons/industries-served.webp" />
+					<nuxt-img src="/icons/industries-served.webp" width="218" height="221" />
 					<Button block>Who We Serve?</Button>
 				</div>
 			</div>
@@ -87,7 +87,7 @@ export default {
 }
 
 .appointment img {
-	width: 80%;
+	/* width: 80%; */
 	margin: 0 auto;
 	margin-bottom: 25px;
 }

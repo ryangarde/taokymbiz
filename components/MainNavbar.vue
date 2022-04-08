@@ -1,6 +1,6 @@
 <template>
 	<div class="navbar">
-		<img class="logo" src="@/assets/logo.webp" />
+		<nuxt-img class="logo" src="/logo.webp" fit="cover" width="205" height="80" />
 
 		<div class="actions">
 			<div class="links">
@@ -24,24 +24,6 @@
 						</div>
 					</template>
 				</template>
-				<!-- <NuxtLink to="/" class="link">Home</NuxtLink>
-				<NuxtLink to="/about" class="link">About</NuxtLink>
-				<div class="link-dropdown">
-					<NuxtLink to="/services" class="link">Services</NuxtLink>
-
-					<div class="link-dropdown-menu-wrapper">
-						<div class="link-dropdown-menu">
-							<NuxtLink to="/" class="dropdown-link">Appointment Setting</NuxtLink>
-							<NuxtLink to="/" class="dropdown-link">Virtual Assistance</NuxtLink>
-							<NuxtLink to="/" class="dropdown-link">Leads</NuxtLink>
-							<NuxtLink to="/" class="dropdown-link">Digital Marketing</NuxtLink>
-							<NuxtLink to="/" class="dropdown-link">Web Hosting</NuxtLink>
-							<NuxtLink to="/" class="dropdown-link">My Account</NuxtLink>
-						</div>
-					</div>
-				</div>
-				<NuxtLink to="/resources" class="link">Resources</NuxtLink>
-				<NuxtLink to="/contact" class="link">Contact</NuxtLink> -->
 			</div>
 
 			<div class="buttons">
@@ -101,10 +83,6 @@ export default {
 	background-color: var(--clr-primary-main);
 	height: 80px;
 	padding: 0 95px;
-}
-
-.logo {
-	height: 100%;
 }
 
 .actions {

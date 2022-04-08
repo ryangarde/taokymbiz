@@ -1,7 +1,7 @@
 <template>
 	<div class="root">
 		<div class="body">
-			<div class="title"> FEATURES </div>
+			<SectionTitle> FEATURES </SectionTitle>
 
 			<ol class="pl-6">
 				<li>
@@ -33,6 +33,13 @@
 	</div>
 </template>
 
+<script>
+import SectionTitle from '../typography/SectionTitle.vue';
+export default {
+	components: { SectionTitle },
+};
+</script>
+
 <style scoped>
 .root {
 	padding: 100px;
@@ -46,12 +53,6 @@
 	background-color: var(--clr-primary-dark);
 	padding: 50px;
 	border-radius: 30px;
-}
-
-.title {
-	font-size: 30px;
-	font-weight: 600;
-	text-align: center;
 }
 
 ol {

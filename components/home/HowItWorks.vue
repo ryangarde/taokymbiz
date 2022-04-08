@@ -1,7 +1,7 @@
 <template>
 	<div class="root">
 		<div class="body">
-			<div class="title">HOW IT WORKS?</div>
+			<SectionTitle>HOW IT WORKS?</SectionTitle>
 
 			<img class="how-it-works-image mx-auto" src="@/assets/images/howit-works-appointment.webp" />
 
@@ -16,6 +16,13 @@
 	</div>
 </template>
 
+<script>
+import SectionTitle from '../typography/SectionTitle.vue';
+export default {
+	components: { SectionTitle },
+};
+</script>
+
 <style scoped>
 .root {
 	padding: 100px;
@@ -24,12 +31,6 @@
 .body {
 	width: 60%;
 	margin: 0 auto;
-	text-align: center;
-}
-
-.title {
-	font-size: 30px;
-	font-weight: 600;
 	text-align: center;
 }
 

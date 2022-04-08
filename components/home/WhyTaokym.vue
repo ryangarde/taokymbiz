@@ -1,7 +1,7 @@
 <template>
 	<div class="root">
 		<div class="body">
-			<div class="title">WHY TAOKYM BUSINESS SOLUTIONS?</div>
+			<SectionTitle>WHY TAOKYM BUSINESS SOLUTIONS?</SectionTitle>
 
 			<div class="content">
 				We partner with quality professionals where the cost of labor is fair and the desire for success is high. Our business model creates
@@ -37,6 +37,13 @@
 	</div>
 </template>
 
+<script>
+import SectionTitle from '../typography/SectionTitle.vue';
+export default {
+	components: { SectionTitle },
+};
+</script>
+
 <style scoped>
 .root {
 	padding: 100px;
@@ -48,12 +55,6 @@
 .body {
 	width: 60%;
 	margin: 0 auto;
-}
-
-.title {
-	font-size: 30px;
-	font-weight: 600;
-	text-align: center;
 }
 
 .content {

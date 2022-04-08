@@ -1,7 +1,7 @@
 <template>
 	<div class="root">
 		<div class="body">
-			<div class="title">BUSINESSES SERVED</div>
+			<SectionTitle>BUSINESSES SERVED</SectionTitle>
 			<ul class="font-bold mb-14">
 				<li>Any sales organization.</li>
 				<li>Any business that has an appointment schedule that needs to be populated.</li>
@@ -60,10 +60,9 @@
 </template>
 
 <script>
+import SectionTitle from '../typography/SectionTitle.vue';
 export default {
-	data: () => ({
-		panel: 0,
-	}),
+	components: { SectionTitle },
 };
 </script>
 
@@ -80,12 +79,6 @@ export default {
 	background-color: var(--clr-primary-dark);
 	padding: 50px;
 	border-radius: 30px;
-}
-
-.title {
-	font-size: 30px;
-	font-weight: 600;
-	text-align: center;
 }
 
 ul {

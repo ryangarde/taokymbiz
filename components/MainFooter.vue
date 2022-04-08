@@ -17,11 +17,11 @@
 				<div>
 					<div class="font-bold">JOIN OUR NEWSLETTER</div>
 					<div class="content"> Sign up to receive timely, useful information in your inbox. </div>
-					<button>SUBSCRIBE</button>
+					<Button backgroundColor="#f10000" borderRadius="6px">SUBSCRIBE</Button>
 				</div>
 				<div>
 					<div class="font-bold">EMAIL US</div> <div class="content"> Get in touch with us, leave a message. </div>
-					<button>EMAIL US</button>
+					<Button backgroundColor="#f10000" borderRadius="6px">EMAIL US</Button>
 				</div>
 				<div>
 					<div class="font-bold">SITE NAVIGATION</div>
@@ -42,6 +42,14 @@
 		</div>
 	</div>
 </template>
+
+<script>
+import Button from './inputs/Button.vue';
+
+export default {
+	components: { Button },
+};
+</script>
 
 <style scoped>
 .footer {
@@ -66,7 +74,7 @@
 	font-size: 15px;
 }
 
-button {
+/* button {
 	background-color: #f10000;
 	color: #fff;
 	padding: 9px 28px;
@@ -74,5 +82,5 @@ button {
 	border-radius: 6px;
 	font-size: 13px;
 	font-weight: 600;
-}
+} */
 </style>

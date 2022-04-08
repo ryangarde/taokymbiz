@@ -1,7 +1,7 @@
 <template>
 	<div class="root">
 		<div class="body">
-			<div class="title">APPOINTMENT SETTING & TRANSFERS</div>
+			<SectionTitle>APPOINTMENT SETTING & TRANSFERS</SectionTitle>
 
 			<div class="sub-title"> Fill your calendar with appointments while you focus on revenue generating tasks. </div>
 
@@ -14,24 +14,32 @@
 			<div class="appointments">
 				<div class="appointment">
 					<img src="@/assets/icons/why-taokym.webp" />
-					<button>Why TAOKYM?</button>
+					<Button block>Why TAOKYM?</Button>
 				</div>
 				<div class="appointment">
 					<img src="@/assets/icons/how-it-works-appointment.webp" />
-					<button>How it Works?</button>
+					<Button block>How it Works?</Button>
 				</div>
 				<div class="appointment">
 					<img src="@/assets/icons/features.webp" />
-					<button>Features</button>
+					<Button block>Features</Button>
 				</div>
 				<div class="appointment">
 					<img src="@/assets/icons/industries-served.webp" />
-					<button>Who We Serve?</button>
+					<Button block>Who We Serve?</Button>
 				</div>
 			</div>
 		</div>
 	</div>
 </template>
+
+<script>
+import SectionTitle from '../typography/SectionTitle.vue';
+import Button from '../inputs/Button.vue';
+export default {
+	components: { SectionTitle, Button },
+};
+</script>
 
 <style scoped>
 .root {
@@ -82,16 +90,5 @@
 	width: 80%;
 	margin: 0 auto;
 	margin-bottom: 25px;
-}
-
-.appointment button {
-	background-color: var(--clr-primary-main);
-	color: #fff;
-	padding: 14px 28px;
-	border: none;
-	border-radius: 4px;
-	font-size: 15px;
-	font-weight: 600;
-	width: 100%;
 }
 </style>

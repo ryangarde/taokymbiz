@@ -13,19 +13,19 @@
 
 			<div class="appointments">
 				<div class="appointment">
-					<img src="@/assets/icons/why-taokym.webp" />
+					<nuxt-img src="/icons/why-taokym.webp" />
 					<Button block>Why TAOKYM?</Button>
 				</div>
 				<div class="appointment">
-					<img src="@/assets/icons/how-it-works-appointment.webp" />
+					<nuxt-img src="/icons/how-it-works-appointment.webp" />
 					<Button block>How it Works?</Button>
 				</div>
 				<div class="appointment">
-					<img src="@/assets/icons/features.webp" />
+					<nuxt-img src="/icons/features.webp" />
 					<Button block>Features</Button>
 				</div>
 				<div class="appointment">
-					<img src="@/assets/icons/industries-served.webp" />
+					<nuxt-img src="/icons/industries-served.webp" />
 					<Button block>Who We Serve?</Button>
 				</div>
 			</div>

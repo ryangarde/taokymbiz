@@ -15,11 +15,11 @@
 </style>
 
 <script>
-import Appointment from '@/components/home/Appointment.vue';
-import WhyTaokym from '~/components/home/WhyTaokym.vue';
-import HowItWorks from '../components/home/HowItWorks.vue';
-import Features from '~/components/home/Features.vue';
-import BusinessServed from '../components/home/BusinessServed.vue';
+import Appointment from '~/components/appointment-setting/Appointment.vue';
+import WhyTaokym from '~/components/appointment-setting/WhyTaokym.vue';
+import HowItWorks from '~/components/appointment-setting/HowItWorks.vue';
+import Features from '~/components/appointment-setting/Features.vue';
+import BusinessServed from '~/components/appointment-setting/BusinessServed.vue';
 
 export default {
 	data() {

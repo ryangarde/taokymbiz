@@ -18,6 +18,7 @@ body {
 :root {
 	--clr-primary-main: #3782f6;
 	--clr-primary-dark: #0e1844;
+	--clr-primary-red: #f10000;
 }
 
 ul {

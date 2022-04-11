@@ -13,7 +13,7 @@ export default {
 			type: Boolean,
 			default: false,
 		},
-		backgroundColor: {
+		color: {
 			type: String,
 		},
 		fontSize: {
@@ -22,6 +22,21 @@ export default {
 		borderRadius: {
 			type: String,
 		},
+		color: {
+			type: String,
+		},
+	},
+
+	data: () => ({
+		backgroundColor: '',
+	}),
+
+	created() {
+		if (this.color === 'theme-red') {
+			this.backgroundColor = '#f10000';
+		} else {
+			this.backgroundColor = this.color;
+		}
 	},
 };
 </script>

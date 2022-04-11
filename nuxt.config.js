@@ -41,4 +41,14 @@ export default {
 			},
 		},
 	},
+
+	vuetify: {
+		theme: {
+			themes: {
+				light: {
+					'theme-red': '#f10000',
+				},
+			},
+		},
+	},
 };

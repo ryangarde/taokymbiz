@@ -17,11 +17,11 @@
 				<div>
 					<div class="font-bold">JOIN OUR NEWSLETTER</div>
 					<div class="content"> Sign up to receive timely, useful information in your inbox. </div>
-					<Button backgroundColor="#f10000" borderRadius="6px">SUBSCRIBE</Button>
+					<Button color="theme-red" borderRadius="6px">SUBSCRIBE</Button>
 				</div>
 				<div>
 					<div class="font-bold">EMAIL US</div> <div class="content"> Get in touch with us, leave a message. </div>
-					<Button backgroundColor="#f10000" borderRadius="6px">EMAIL US</Button>
+					<Button color="theme-red" borderRadius="6px">EMAIL US</Button>
 				</div>
 				<div>
 					<div class="font-bold">SITE NAVIGATION</div>

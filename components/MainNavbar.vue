@@ -27,9 +27,9 @@
 			</div>
 
 			<div class="buttons">
-				<Button backgroundColor="#f10000" small borderRadius="6px">BOOK DEMO</Button>
-				<Button backgroundColor="#f10000" small borderRadius="6px">CALL NOW</Button>
-				<Button backgroundColor="#f10000" small borderRadius="6px">MORE INFO</Button>
+				<Button color="theme-red" small borderRadius="6px">BOOK DEMO</Button>
+				<Button color="theme-red" small borderRadius="6px">CALL NOW</Button>
+				<Button color="theme-red" small borderRadius="6px">MORE INFO</Button>
 			</div>
 		</div>
 	</div>

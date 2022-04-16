@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+:root {
+	--clr-primary-main: #3782f6;
+	--clr-primary-dark: #0e1844;
+	--clr-primary-red: #f10000;
+}
+
+ul {
+	list-style: outside;
+}
+
+ol {
+	list-style: decimal;
+}
+
+.theme--light.v-expansion-panels .v-expansion-panel {
+	color: #fff !important;
+}
